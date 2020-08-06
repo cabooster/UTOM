@@ -1,4 +1,4 @@
-# **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
+# **UTOM**: Unsupervised content-preserving transformation for optical microscopy.
 
 [![Platform](https://img.shields.io/badge/Platform%20-Ubuntu%2016.04-FF6347)](https://ubuntu.com/)
 [![Python](https://img.shields.io/badge/Python-v3.6-blue)](https://www.python.org/)
