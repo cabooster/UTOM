@@ -32,7 +32,7 @@ Our work is based on Cycle-consistent Generative Adversarial Networks (**CycleGA
 
 <img src="images/schematic.jpg" width="275" align="right">
 
-To correct mapping biases in the scenario of microscopy and provide a robust unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**UTOM**). By imposing additional **saliency constraint**, UTOM can complete pixel-wise regression tasks including image restoration (1-channel to 1-channel),  whole-slide histopathological coloration (1-channel to 3-channel), and virtual fluorescent labeling (13-channel to 3-channel), *etc*. 
+We propose **UTOM**, an unsupervised content-preserving transform method for optical microscopy. By imposing a saliency constraint, UTOM can locate the image content and keep the saliency map almost unchanged when transformed between two domains. Semantic information can thus be preserved. We demonstrated several transformation tasks including *in silico* histological staining, fluorescence image restoration (denoising, axial resolution restoration, and super-resolution reconstruction), and virtual fluorescence labeling, to illustrate the capability and stability of UTOM.
 
 Foremost, UTOM needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for image-to-image transformation in the field of microscopy, especially when the sample undergoes fast dynamics or preparing paired data is destructive for the sample. For more information and technical support please follow our update.
 
