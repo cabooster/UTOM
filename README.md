@@ -34,7 +34,7 @@ Our work is based on Cycle-consistent Generative Adversarial Networks (**CycleGA
 
 To correct mapping biases in the scenario of microscopy and provide a robust unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**UTOM**). By imposing additional **saliency constraint**, UTOM can complete pixel-wise regression tasks including image restoration (1-channel to 1-channel),  whole-slide histopathological coloration (1-channel to 3-channel), and virtual fluorescent labeling (13-channel to 3-channel), *etc*. 
 
-Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
+Foremost, UTOM needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for image-to-image transformation in the field of microscopy, especially when the sample undergoes fast dynamics or preparing paired data is destructive for the sample. For more information and technical support please follow our update.
 
 More details please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
@@ -80,7 +80,7 @@ A readable **python code** of UTOM aiming at realizing unsupervised domain mappi
 * NVIDIA GPU + CUDA 10.0
 
 ## Building environment
-We recommend configuring a new environment named *UTOM* on your machine to avoid version conflicts of some packages. The typical install time on a desktop computer with CUDA support is about 10 minutes. We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
+We recommend configuring a new environment named *UTOM* on your machine to avoid version conflicts of some packages. We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
 * Check your CUDA version
 ```
 $ cat /usr/local/cuda/version.txt
@@ -112,8 +112,6 @@ $ python
 ## Data processing
 
 * You can download some **data** for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
-
-* Transform your images from '*.tif*' to '*.png*' to use the universal I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
 
 ## Training
 
