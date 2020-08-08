@@ -111,7 +111,7 @@ $ python
 
 ## Data processing
 
-* You can download some **data** or **checkpoints** for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
+* You can download some **data** for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
 
 * Transform your images from '*.tif*' to '*.png*' to use the universal I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
 
@@ -133,18 +133,12 @@ $ python test.py --dataroot ./datasets/AF2HE_datasets --name AF2HE --model cycle
 
 # Results
 Some of our results are exhibited below. For more results and further analyses, please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
-### Unsupervised whole-slide histopathological coloration
+### *In silico* histological staining learned from adjacent slide
 
-|           Input           |           UTOM           |           GT           |
+|           Input           |           UTOM           |           Adjacent section           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/AF_12.png) | ![bw](images/AF_12_HE_pre.png) | ![bw](images/AF_12_HE_ref.png) |
 | ![bw](images/AF_8.png) | ![bw](images/AF_8_HE_pre.png) | ![bw](images/AF_8_HE_ref.png) |
-
-
-
-
-# Problems, issues
-You can submit your questions or create an **issue** for any bugs you might encounter [[issue report]](https://github.com/Xinyang-Li/c2GAN/issues). We would make a response and inspect the code as soon as possible.
 
 
 # Citation
