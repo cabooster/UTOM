@@ -3,14 +3,11 @@
 [![Platform](https://img.shields.io/badge/Platform%20-Ubuntu%2016.04-FF6347)](https://ubuntu.com/)
 [![Python](https://img.shields.io/badge/Python-v3.6-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Pytorch%201.3.1-orange)](https://pytorch.org/)
-
 [![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
 [![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/UTOM/graphs/contributors)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-green)](https://www.biorxiv.org/content/10.1101/848077v2)
 [![Commits](https://img.shields.io/github/commit-activity/m/Xinyang-Li/UTOM?color=informational)](https://github.com/Xinyang-Li/UTOM/graphs/commit-activity)
 ![Size](https://img.shields.io/github/repo-size/Xinyang-Li/UTOM?color=red)
-[![Issue](https://img.shields.io/github/issues/Xinyang-Li/UTOM)](https://github.com/Xinyang-Li/UTOM/issues)
-[![Stars](https://img.shields.io/github/stars/Xinyang-Li/UTOM?style=social)](https://img.shields.io/github/stars/Xinyang-Li/UTOM?style=social)
 
 
 ## Contents
