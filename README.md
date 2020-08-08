@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
 [![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/UTOM/graphs/contributors)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-green)](https://www.biorxiv.org/content/10.1101/848077v2)
-[![Commits](https://img.shields.io/github/commit-activity/m/Xinyang-Li/UTOM?color=informational)](https://github.com/Xinyang-Li/UTOM/graphs/commit-activity)
 ![Size](https://img.shields.io/github/repo-size/Xinyang-Li/UTOM?color=red)
 
 
