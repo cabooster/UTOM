@@ -109,8 +109,6 @@ $ python
 
 # Demo
 
-## Data processing
-
 * You can download some **data** for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
 
 ## Training
