@@ -5,12 +5,12 @@
 [![Framework](https://img.shields.io/badge/Framework-Pytorch%201.3.1-orange)](https://pytorch.org/)
 
 [![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
-[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/c2GAN/graphs/contributors)
+[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/UTOM/graphs/contributors)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-green)](https://www.biorxiv.org/content/10.1101/848077v2)
-[![Commits](https://img.shields.io/github/commit-activity/m/Xinyang-Li/c2GAN?color=informational)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
-![Size](https://img.shields.io/github/repo-size/Xinyang-Li/c2GAN?color=red)
-[![Issue](https://img.shields.io/github/issues/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/issues)
-[![Stars](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)
+[![Commits](https://img.shields.io/github/commit-activity/m/Xinyang-Li/UTOM?color=informational)](https://github.com/Xinyang-Li/UTOM/graphs/commit-activity)
+![Size](https://img.shields.io/github/repo-size/Xinyang-Li/UTOM?color=red)
+[![Issue](https://img.shields.io/github/issues/Xinyang-Li/UTOM)](https://github.com/Xinyang-Li/UTOM/issues)
+[![Stars](https://img.shields.io/github/stars/Xinyang-Li/UTOM?style=social)](https://img.shields.io/github/stars/Xinyang-Li/UTOM?style=social)
 
 
 ## Contents
@@ -127,7 +127,7 @@ $ python test.py --dataroot ./datasets/AF2HE_datasets --name AF2HE --model cycle
 Some of our results are exhibited below. For more results and further analyses, please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 ### *In silico* histological staining learned from adjacent slide
 
-|           Input           |           UTOM           |           Adjacent section           |
+|           Autofluorescence           |           Predicted by UTOM           |          H&E-stained adjacent section           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/AF_12.png) | ![bw](images/AF_12_HE_pre.png) | ![bw](images/AF_12_HE_ref.png) |
 | ![bw](images/AF_8.png) | ![bw](images/AF_8_HE_pre.png) | ![bw](images/AF_8_HE_ref.png) |
