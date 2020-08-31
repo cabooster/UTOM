@@ -120,7 +120,7 @@ $ python test.py --dataroot ./datasets/AF2HE_datasets --name AF2HE --model cycle
 ```
 
 # Results
-Some of our results are exhibited below. For more results and further analyses, please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+Some of our results are exhibited below. For more results and further analyses, please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v3)
 ### *In silico* histological staining learned from adjacent slide
 
 |           Autofluorescence           |           Predicted by UTOM           |          H&E-stained adjacent section           |
