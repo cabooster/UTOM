@@ -188,11 +188,11 @@ class CycleGANModel(BaseModel):
         fake_A_mean = torch.mean(self.fake_A,dim=1,keepdim=True)
         fake_B_mean = torch.mean(self.fake_B,dim=1,keepdim=True)
 
-        real_A_normal = (real_A_mean - (self.opt.threshold_A/127.5-2))*100
-        real_B_normal = (real_B_mean - (self.opt.threshold_B/127.5-2))*100
+        real_A_normal = (real_A_mean - (self.opt.threshold_A/127.5-1))*100
+        real_B_normal = (real_B_mean - (self.opt.threshold_B/127.5-1))*100
 
-        fake_A_normal = (fake_A_mean - (self.opt.threshold_B/127.5-2))*100
-        fake_B_normal = (fake_B_mean - (self.opt.threshold_A/127.5-2))*100
+        fake_A_normal = (fake_A_mean - (self.opt.threshold_B/127.5-1))*100
+        fake_B_normal = (fake_B_mean - (self.opt.threshold_A/127.5-1))*100
 
         real_A_sigmoid = torch.sigmoid(real_A_normal)
         real_B_sigmoid = 1 - torch.sigmoid(real_B_normal)
