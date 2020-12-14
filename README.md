@@ -24,7 +24,7 @@ Foremost, UTOM needs no pre-aligned training pairs. The laborious work of image 
 
 More details please refer to the companion paper where this method first occurred [[paper]](https://www.biorxiv.org/content/10.1101/848077v3).
 
-A readable **python code** of UTOM aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
+A readable **python code** of UTOM aiming at realizing unsupervised domain mapping for optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
 
 # Repo Structure
 
