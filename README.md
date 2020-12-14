@@ -1,14 +1,5 @@
 # **UTOM**: Unsupervised content-preserving transformation for optical microscopy.
 
-[![Platform](https://img.shields.io/badge/Platform%20-Ubuntu%2016.04-FF6347)](https://ubuntu.com/)
-[![Python](https://img.shields.io/badge/Python-v3.6-blue)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-Pytorch%201.3.1-orange)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
-[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/UTOM/graphs/contributors)
-[![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-green)](https://www.biorxiv.org/content/10.1101/848077v2)
-![Size](https://img.shields.io/github/repo-size/Xinyang-Li/UTOM?color=red)
-
-
 ## Contents
 
 <img src="images/logo4.jpg" width="600" align="right">
