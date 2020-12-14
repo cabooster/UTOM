@@ -31,7 +31,7 @@ We propose **UTOM**, an unsupervised content-preserving transform method for opt
 
 Foremost, UTOM needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for image-to-image transformation in the field of microscopy, especially when the sample undergoes fast dynamics or preparing paired data is destructive for the sample. We hope our method could accelerate a paradigm shift of deep learning in microscopy.
 
-More details please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v3)
+More details please refer to the companion paper where this method first occurred [[paper]](https://www.biorxiv.org/content/10.1101/848077v3).
 
 A readable **python code** of UTOM aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
 
