@@ -1,4 +1,4 @@
-## **UTOM**: Unsupervised content-preserving transformation for optical microscopy.
+# **UTOM**: Unsupervised content-preserving transformation for optical microscopy.
 
 ## Contents
 
