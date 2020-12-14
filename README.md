@@ -132,5 +132,5 @@ Some of our results are exhibited below. For more results and further analyses, 
 
 If you use this code please cite the corresponding paper where original methods appeared: 
 
-["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v3)
 
