@@ -4,8 +4,8 @@ clc;clear;
 
 patch_size = 512;
 overlap = 128;
-fntif = './1-saliency-loss/images/';
-fnrlt = './1-saliency-loss/';
+fntif = './UTOM/images/';
+fnrlt = './UTOM/';
 
 % img_gt = im2uint8(loadtiff('./test-whole-slide/GT.tif'));
 
