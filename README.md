@@ -42,7 +42,7 @@ A readable **python code** of UTOM aiming at realizing unsupervised domain mappi
 |---|---|---trainA
 |---|---|---trainB
 |---|---|---testA
-|---|---|---testB
+|---|---|---testB (optional)
 |---images
 |---|---some_images_for_README
 |---models
