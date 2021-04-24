@@ -9,6 +9,6 @@ Once downloaded, these compressed files (.zip) should be extracted into this dir
 - stitch_testA.m (URL: https://cloud.tsinghua.edu.cn/f/a76d60ebb00240129511/?dl=1)
 
 Besides, the complete raw data without screening and preprocessing can be downloaded from:
-https://cloud.tsinghua.edu.cn/f/6d17f1c642d442afbe65/?dl=1
+- Colorectal-AF&HE (URL: https://cloud.tsinghua.edu.cn/f/6d17f1c642d442afbe65/?dl=1)
 
 If your Chrome misunderstands the security of the download, you can change its security settings or use other browsers.
