@@ -95,7 +95,7 @@ $ python
 
 # Demo
 
-* You can download some **data** for demo code from [here](https://github.com/cabooster/UTOM/tree/master/datasets). We also release the complete [raw data](https://github.com/cabooster/UTOM/tree/master/datasets) (without screening and preprocessing) to benefit relevant researches.
+* You can download some **data** for demo code from [here](https://github.com/cabooster/UTOM/tree/master/datasets). We also release the complete [**raw data**](https://github.com/cabooster/UTOM/tree/master/datasets) (without screening and preprocessing) to benefit relevant researches.
 
 ## Training
 
