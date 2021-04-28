@@ -18,5 +18,4 @@ If your Chrome misunderstands the security of the download, you can change its s
 ## Citation
 If you use these data, please cite the corresponding paper: 
 
-["Li, X., Zhang, G., Qiao, H., Bao, F., Deng, Y., Wu, J., ... & Dai, Q. (2021). Unsupervised content-preserving transformation for optical microscopy. Light: Science & Applications, 10(1), 1-11.".](https://www.nature.com/articles/s41377-021-00484-y)
-
+["Li, X., Zhang, G., Qiao, H., ..., Wang, H., & Dai, Q. (2021). Unsupervised content-preserving transformation for optical microscopy. Light: Science & Applications, 10(1), 1-11.".](https://www.nature.com/articles/s41377-021-00484-y)
