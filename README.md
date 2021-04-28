@@ -121,7 +121,7 @@ Some of our results are exhibited below. For more results and further analyses, 
 
 # Citation
 
-If you use this code please cite the corresponding paper where original methods appeared: 
+If you use this code and relevant data, please cite the corresponding paper where original methods appeared: 
 
 ["Li, X., Zhang, G., Qiao, H., Bao, F., Deng, Y., Wu, J., ... & Dai, Q. (2021). Unsupervised content-preserving transformation for optical microscopy. Light: Science & Applications, 10(1), 1-11.".](https://www.nature.com/articles/s41377-021-00484-y)
 
