@@ -1,19 +1,19 @@
 # Data download guide
 ## Demo data
 The data used for *in silico* histopathological staining come in three sets: **trainA, trainB, testA**. We provide a download link for each set.
-- trainA (URL: https://cloud.tsinghua.edu.cn/f/fa25d75a1fcd41cc88d5/?dl=1)
-- trainB (URL: https://cloud.tsinghua.edu.cn/f/6e6d6fbc588b4719a9c0/?dl=1)
-- testA (URL https://cloud.tsinghua.edu.cn/f/bc51e8062b6940db8abf/?dl=1)
+- trainA (URL: https://zenodo.org/record/8375712/files/trainA.rar?download=1)
+- trainB (URL: https://zenodo.org/record/8375712/files/trainB.rar?download=1)
+- testA (URL: https://zenodo.org/record/8375712/files/testA.rar?download=1)
 
 Once downloaded, these compressed files (`*.rar`) should be extracted into this directory (`/UTOM/datasets`) for model training. A Matlab script describing how we split original big images is also provided here for reference, which can be used to stitch together those small images in **testA** without any modification.
-- stitch_testA.m (URL: https://cloud.tsinghua.edu.cn/f/a76d60ebb00240129511/?dl=1).
+- stitch_testA.m (URL: https://zenodo.org/record/8375712/files/stitch_testA.m?download=1).
 
 ## Complete dataset
 1. Images (tif files of relevant tissue cores) after format conversion and screening can be downloaded from:
-- Colorectal-AF&HE-tif (URL: https://cloud.tsinghua.edu.cn/f/02db3ba2b3c7449698be/?dl=1)
+- Colorectal-AF&HE-tif (URL: https://zenodo.org/record/8375712/files/Colorectal-AF%26HE-tif.rar?download=1)
 
 2. **Whole-slide pathological images** (colorectal cancer, only partially used in this study) without screening and preprocessing can be downloaded from:
-- Colorectal-AF&HE-raw (URL: https://cloud.tsinghua.edu.cn/f/b9c5cdfdf61c4558a8bc/?dl=1)
+- Colorectal-AF&HE-raw (URL: https://zenodo.org/record/8375712/files/Colorectal-AF-HE-raw.rar?download=1)
 You can use the [QuPath](https://qupath.github.io/) software to open and view these files. 
 
 3. **Whole-slide pathological images of various kinds of cancers** (not used in this study) can be downloaded from:
