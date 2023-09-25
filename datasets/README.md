@@ -17,7 +17,7 @@ Once downloaded, these compressed files (`*.rar`) should be extracted into this 
 You can use the [QuPath](https://qupath.github.io/) software to open and view these files. 
 
 3. **Whole-slide pathological images of various kinds of cancers** (not used in this study) can be downloaded from:
-- All-AF&HE-raw (URL: https://cloud.tsinghua.edu.cn/d/94a403f5bcea49fba572/)
+- All-AF&HE-raw (URL: https://zenodo.org/record/8376199)
 You can use the [QuPath](https://qupath.github.io/) software to open and view these files. 
 
 If your Chrome misunderstands the security of the download, you can change its security settings or use other browsers.
