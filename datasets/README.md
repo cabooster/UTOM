@@ -5,7 +5,7 @@ The data used for *in silico* histopathological staining come in three sets: **t
 - trainB (URL: https://cloud.tsinghua.edu.cn/f/6e6d6fbc588b4719a9c0/?dl=1)
 - testA (URL https://cloud.tsinghua.edu.cn/f/bc51e8062b6940db8abf/?dl=1)
 
-Once downloaded, these compressed files (.rar) should be extracted into this directory (/UTOM/datasets) for model training. A Matlab script describing how we split original big images is also provided here for reference, which can be used to stitch together those small images in **testA** without any modification.
+Once downloaded, these compressed files (`*.rar`) should be extracted into this directory (`/UTOM/datasets`) for model training. A Matlab script describing how we split original big images is also provided here for reference, which can be used to stitch together those small images in **testA** without any modification.
 - stitch_testA.m (URL: https://cloud.tsinghua.edu.cn/f/a76d60ebb00240129511/?dl=1).
 
 ## Complete dataset
